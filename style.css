@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    width: 1500px;
+    height: 2000px;
+}
