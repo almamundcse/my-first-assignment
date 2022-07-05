@@ -1,19 +1,15 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
-    margin: 0;
+    margin: 0px;
     font-family: 'Nunito Sans', sans-serif;
 }
 #container{
     width: 1500px;
     height: 2000px;
-
 }
 .main{
     width: 1500px;
     height: 500px;
-    border: 1px solid green;
     background-image: url("images/donation13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +17,7 @@ body{
 .main h1{
     text-align: center; 
     padding-top: 100px;
+    margin-top: 0px;
     font-size: 40px;
     color: whitesmoke;
 }
@@ -32,7 +29,7 @@ body{
 .anchor-button{
     text-decoration: none;
     padding: 15px 25px;
-    margin-left:718px;
+    margin-left:700px;
     background-image: linear-gradient(6.5deg, orange 5.5%, red 125%);
     border-radius: 5px;
     color: whitesmoke;
@@ -41,13 +38,11 @@ body{
 .donate-part{
     width: 1500px;
     height: 700px;
-    border: 1px solid green;
 }
 .donate-today{
     width: 750px;
     height: 200px;
     margin-left: 375px;
-    border: 1px solid red;
 }
 .donate-today h1{
     text-align: center;
@@ -58,4 +53,60 @@ body{
 .donate-today p{
     text-align: center;
     color: dimgray;
+}
+.flex-container{
+    width: 1500px;
+    height: 300px;
+    border: 1px solid yellow;
+   
+}
+.flex-area{
+    width: 750px;
+    height: 100px;
+    margin-left: 375px;
+    display: flex;
+}
+.flex-taka{
+    width:100px ;
+    height: 80px;
+    background-color: rgb(240, 248, 248);
+    margin-right: 25px; 
+}
+.flex-taka h3{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+#flex-left{
+    margin-left: 73px;
+}
+#flex-border{
+    border: 2px solid red;
+    background-color: pink;
+    color: red;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 750px;
+    margin: 40px 375px;
+    text-align: center;
+   
+}
+/* our donate plan*/
+.artical-food{
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: lightblue;
+}
+.artical-family{
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.artical-education{
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
 }
