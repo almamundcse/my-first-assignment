@@ -8,6 +8,7 @@ body{
     background-color: rgb(255, 250, 250);
     margin: auto;
 }
+/*main part*/
 .main{
     width: 1500px;
     height: 500px;
@@ -56,6 +57,7 @@ body{
     text-align: center;
     color: dimgray;
 }
+/* flex container part*/
 .flex-container{
     width: 1500px;
     height: 300px;
@@ -130,6 +132,7 @@ body{
     border-radius: 7px;
     background-color:rgb(235, 218, 218);
 }
+/*flexbox donation aria*/
 .flexbox-donation{
     width: 1500px;
     height: 500px;
@@ -187,7 +190,7 @@ body{
     padding-left: 10px;
     margin-top: 40px;
 }
-
+/*artical aria*/
 .artical{
     width:1500px;
     height: 500px;
