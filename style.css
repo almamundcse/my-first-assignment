@@ -226,3 +226,15 @@ footer{
     height: 200px;
     background-color: black;
 }
+footer h1{
+    text-align: center;
+    font-size: 40px;
+    color: indianred;
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
