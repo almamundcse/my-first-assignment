@@ -5,7 +5,8 @@ body{
 }
 #container{
     width: 1500px;
-    height: 2000px;
+    height: 2500px;
+    background-color: white;
 }
 .main{
     width: 1500px;
@@ -96,7 +97,11 @@ body{
 }
 /* our donate plan*/
 .flex-articla{
+    width: 1500px;
+    height: 350px;
+    float: left;
     display: flex;
+    
 }
 .artical-food{
     width: 400px;
@@ -124,4 +129,56 @@ body{
     padding-left: 20px;
     border-radius: 7px;
     background-color:rgb(235, 218, 218);
+}
+.flexbox-donation{
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    background-color: rgb(217, 224, 224);
+}
+.flexbox-donation #flax-shadow{
+    box-shadow: 5px 7px 45px gray;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.flexbox-artical1{
+    width: 400px;
+    height: 350px;
+    margin-left: 125px;
+    background-color:white;
+}
+.donate-head{
+    width: 400px;
+    height: 80px;
+    background-color:gray ;
+}
+.donate-head h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+}
+#flax-shadow h4{
+    padding-left: 20px;
+    color: dimgray;
+}
+#flax-shadow p{
+    line-height: 200%;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+.flexbox-articla2{
+    width: 400px;
+    height: 350px;
+    margin-left: 25px;
+    background-color:white;
+}
+.flexbox-articla3{
+    width: 400px;
+    height: 350px;
+    margin-left: 25px;
+    background-color:white; 
+}
+.artical{
+    width:1500px;
+    height: 500px;
 }
